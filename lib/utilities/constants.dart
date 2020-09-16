@@ -18,3 +18,17 @@ const kButtonTextStyle = TextStyle(
 const kConditionTextStyle = TextStyle(
   fontSize: 100.0,
 );
+
+const weatherApiKey = '5213d565a5cbacde590a34125b612a5b';
+const openWeatherMapURL = 'https://api.openweathermap.org/data/2.5/weather';
+
+const kInputTextFieldDecoration = InputDecoration(
+  filled: true,
+  icon: Icon(Icons.location_city),
+  hintText: 'Enter City Name',
+  border: OutlineInputBorder(
+    borderRadius: BorderRadius.all(
+      Radius.circular(10.0),
+    ),
+  ),
+);
